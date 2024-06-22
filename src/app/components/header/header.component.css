@@ -6,7 +6,7 @@
   padding-right: 80px;
   font-size: 1.2rem;
   font-weight: 600;
-  background-color: #262626;
+
 }
 .header a{
   color: #02a0e3;
@@ -14,4 +14,14 @@
 }
 .header a:hover{
   color: #ff8800;
+}
+
+@media (width < 900px){
+  .header{
+    flex-direction: column;
+    padding: 0;
+  }
+  .header img{
+    width: 100%;
+  }
 }
