@@ -2,19 +2,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 20px;
+  padding-left: 80px;
   padding-right: 80px;
   font-size: 1.2rem;
-  font-weight: 600;
   background-color: #f8f8f8;
-
+  height: 80px;
 }
 .header a{
   color: #02a0e3;
   text-decoration: none;
+  transition: 0.3s;
 }
 .header a:hover{
   color: #ff8800;
+  transform: scale(1.05);
 }
 
 @media (width < 900px){
