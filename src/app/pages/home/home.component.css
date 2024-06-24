@@ -1,3 +1,14 @@
-img{
+.banner img{
     height: calc(100vh - 80px); 
+}
+
+.sobre{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicos{
+    height: 100vh;
 }
